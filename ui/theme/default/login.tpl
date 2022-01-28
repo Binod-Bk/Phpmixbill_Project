@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>{$_title} - {$_L['Login']}</title>
+	<title>{$_L['Logo']}</title>
 	<link rel="shortcut icon" href="{$_theme}/images/logo.png" type="image/x-icon" />
 	
 	<!-- Css/Less Stylesheets -->
@@ -19,7 +19,7 @@
 	<div class="container">
 		<div class="hidden-xs" style="height:150px"></div>
 		<div class="form-head mb20">
-			<h1 class="site-logo h2 mb5 mt5 text-center text-uppercase text-bold" style="text-shadow: 2px 2px 4px #757575;">{$_c['CompanyName']}</h1>
+			<h1 class="site-logo h2 mb5 mt5 text-center text-uppercase text-bold" style="text-shadow: 2px 2px 4px #757575;">{$_L['Logo']}</h1>
 			<hr>
 		</div>
 		{if isset($notify)}
@@ -45,7 +45,7 @@
 						<div class="form-container">
 							<form class="form-horizontal" action="{$_url}login/post" method="post">
 								<div class="md-input-container md-float-label">
-									<input type="text" name="username" placeholder="{$_L['Phone_Number']}" class="md-input">
+									<input type="text" name="username" placeholder="{$_L['Username']}" class="md-input">
 									<label>{$_L['Username']}</label>
 								</div>
 

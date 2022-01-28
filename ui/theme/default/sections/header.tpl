@@ -268,13 +268,19 @@
 							<span class="text">Disquss</span>
 						</a>
 					</li>
+					<li {if $_system_menu eq 'CMS'}class="active"{/if}>
+						<a href="cms/admin/index.php">
+							<i class="ion ion-ios-lightbulb"></i>
+							<span class="text">CMS</span>
+						</a>
+					</li>
 				{/if}
 				</ul>
 
 			</nav>
 
 			<footer class="nav-foot">
-				<p>{date('Y')} &copy; <span>{$_c['CompanyName']}</span></p>
+				<p>{date('Y')} &copy; <span>{$_L['Logo']}</span></p>
 			</footer>
 		</aside>
 		<script>
